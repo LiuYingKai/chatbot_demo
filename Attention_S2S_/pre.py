@@ -177,6 +177,4 @@ def main(_):
     test()
 
 if __name__ == '__main__':
-    np.random.seed(0)
-    tf.set_random_seed(0)
-    tf.app.run()
+    main()
