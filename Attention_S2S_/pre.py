@@ -25,7 +25,7 @@ tf.app.flags.DEFINE_float(
 )
 tf.app.flags.DEFINE_float(
     'dropout',
-    0.5,
+    1.0,
     '每层输出DROPOUT的大小'
 )
 tf.app.flags.DEFINE_integer(
@@ -40,7 +40,7 @@ tf.app.flags.DEFINE_integer(
 )
 tf.app.flags.DEFINE_integer(
     'num_layers',
-    5,
+    2,
     'LSTM的层数'
 )
 tf.app.flags.DEFINE_integer(
